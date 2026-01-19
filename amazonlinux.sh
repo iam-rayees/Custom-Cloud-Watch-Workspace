@@ -12,3 +12,10 @@ fi
 systemctl start nginx
 systemctl enable nginx
 echo "<h1>$(hostname)</h1>" >> /usr/share/nginx/html/index.html
+
+# Packages name
+AmazonCloudWatchAgent
+
+# File name
+AmazonCloudWatch-AmazonLinux
+
